@@ -4,12 +4,13 @@ import "../styles/skillsMenu.css";
 import skills from "./skillsData";
 import frontendIcon from "../assets/eagle-emblem.png";
 import backendIcon from "../assets/hawk-emblem.png";
+import dataScienceIcon from "../assets/owl-emblem.png"; // New icon for Data Science & AI
 
 export default class SkillsMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeMenuItem: 1,
+      activeMenuItem: 1, // Default to FRONT-END
     };
   }
 
@@ -42,12 +43,19 @@ export default class SkillsMenu extends Component {
 
   render() {
     const { activeMenuItem } = this.state;
-    const menuItems = ["FRONT-END", "BACK-END"];
+    const menuItems = ["FRONT-END", "BACK-END", "DATA SCIENCE & AI"];
 
-    const currentIcon = activeMenuItem === 1 ? frontendIcon : backendIcon;
+    // Select the appropriate icon based on the active menu item
+    const currentIcon =
+      activeMenuItem === 1
+        ? frontendIcon
+        : activeMenuItem === 2
+        ? backendIcon
+        : dataScienceIcon;
 
     return (
       <div className="skill-menu">
+        {/* Menu items */}
         {menuItems.map((item, index) => (
           <div
             key={index}
@@ -59,7 +67,9 @@ export default class SkillsMenu extends Component {
             <h2 className="skill-title">{item}</h2>
           </div>
         ))}
+        {/* Dynamic Icon */}
         <img className="skill-icon" src={currentIcon} alt="current skill" />
+        {/* Skills content */}
         <div className="skill-sub-container">
           {this.renderContent(skills[activeMenuItem])}
         </div>

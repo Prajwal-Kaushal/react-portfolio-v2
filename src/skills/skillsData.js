@@ -63,6 +63,40 @@ const skills = {
       level: 3,
     },
   ],
+  3: [
+    {
+      title: "Python",
+      level: 6,
+    },
+    {
+      title: "Machine Learning",
+      level: 5,
+    },
+    {
+      title: "Deep Learning",
+      level: 4,
+    },
+    {
+      title: "Hugging Face",
+      level: 4,
+    },
+    {
+      title: "PyTorch",
+      level: 5,
+    },
+    {
+      title: "TensorFlow",
+      level: 3,
+    },
+    {
+      title: "Data Visualization (Matplotlib/Seaborn)",
+      level: 4,
+    },
+    {
+      title: "R Programming",
+      level: 3,
+    },
+  ],
 };
 
 export default skills;

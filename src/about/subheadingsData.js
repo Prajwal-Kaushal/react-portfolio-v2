@@ -5,8 +5,10 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Hi, I’m Prajwal Kaushal, a passionate Data Scientist and Software Engineer with expertise in AI, 
+          machine learning, and web/app development. 
+          I thrive on solving challenging problems, 
+          creating intuitive user experiences, and building scalable solutions that make an impact.
           </p>
         </>
       ),
