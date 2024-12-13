@@ -10,7 +10,7 @@ const skills = {
     },
     {
       title: "SASS",
-      level: 2,
+      level: 4,
     },
     {
       title: "JavaScript",
@@ -22,11 +22,11 @@ const skills = {
     },
     {
       title: "Tailwind CSS",
-      level: 1,
+      level: 3,
     },
     {
       title: "React JS",
-      level: 3,
+      level: 6,
     },
     {
       title: "Figma",
@@ -36,15 +36,15 @@ const skills = {
   2: [
     {
       title: "PostgreSQL",
-      level: 5,
+      level: 6,
     },
     {
       title: "Node.js",
-      level: 4,
+      level: 6,
     },
     {
       title: "MongoDB",
-      level: 2,
+      level: 4,
     },
     {
       title: "Git",
@@ -56,11 +56,11 @@ const skills = {
     },
     {
       title: "SQL",
-      level: 3,
+      level: 6,
     },
     {
       title: "Express.js",
-      level: 3,
+      level: 4,
     },
   ],
   3: [
@@ -70,11 +70,11 @@ const skills = {
     },
     {
       title: "Machine Learning",
-      level: 5,
+      level: 6,
     },
     {
       title: "Deep Learning",
-      level: 4,
+      level: 6,
     },
     {
       title: "Hugging Face",
@@ -86,7 +86,7 @@ const skills = {
     },
     {
       title: "TensorFlow",
-      level: 3,
+      level: 4,
     },
     {
       title: "Data Visualization (Matplotlib/Seaborn)",
