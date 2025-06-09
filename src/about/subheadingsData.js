@@ -5,10 +5,9 @@ const subheadingsData = {
       content: (
         <>
           <p>
-          Hi, I’m Prajwal Kaushal, a passionate Data Scientist and Software Engineer with expertise in AI, 
-          machine learning, and web/app development. 
-          I thrive on solving challenging problems, 
-          creating intuitive user experiences, and building scalable solutions that make an impact.
+            Hi, I’m Prajwal Kaushal — a Software Engineer skilled in full-stack development,
+            cloud infrastructure, and AI integration. I enjoy solving complex problems, 
+            enhancing user experiences, and building scalable, high-impact solutions.
           </p>
         </>
       ),
@@ -16,30 +15,23 @@ const subheadingsData = {
   ],
   2: [
     {
-      title: "2024 Masters in Data Science",
+      title: "2024: MS in Data Science",
       content: (
         <>
+          <p><u>Indiana University Bloomington</u></p>
           <p>
-          <u>INDIANA UNIVERSITY - BLOOMINGTON</u>
-          </p>
-          <p>
-          Courses: Machine Learning, Statistics, Applied Algorithms, Advanced Database Concepts, NLP, Data Processing, Applied Database Technologies, Big Data in
-Economics, Deep Learning Architecture and Hardware Acceleration, SQL, Business Analysis
-
+            Courses: Machine Learning, Deep Learning, NLP, Big Data, Algorithms, Advanced Databases, SQL, Business Analysis.
           </p>
         </>
       ),
     },
     {
-      title: "2021 Bachelor of Engineering in Computer Science",
+      title: "2021: BE in Computer Science",
       content: (
         <>
+          <p><u>Visvesvaraya Technological University, India</u></p>
           <p>
-            <u>Visvesvaraya Technological University -India</u>
-          </p>
-          <p>
-            Cources: Operating Systems, Computer Networks, Software Engineering, Web Technologies, Theory of Computation, Compiler Design, Microprocessors and
-            Microcontrollers, Cryptography, Cloud Computing
+            Courses: OS, Networks, Software Engineering, Web Tech, TOC, Compiler Design, Microcontrollers, Cryptography.
           </p>
         </>
       ),
@@ -47,79 +39,56 @@ Economics, Deep Learning Architecture and Hardware Acceleration, SQL, Business A
   ],
   3: [
     {
-      title: "Jun 2024 - Present: Project Manager",
+      title: "Nov 2024 – Present: Software Engineer",
       content: (
         <>
-        <p>
-         <u>Hoosier Community Network, Bloomington, IN, USA</u>
-          </p>
+          <p><u>Archelon Solutions LLC, IN, USA</u></p>
           <p>
-          Integrated over 3M data records using Python and MySQL, improving data accuracy by 30%. Developed Power BI dashboards with advanced DAX to analyze customer churn, driving strategic decisions.
+            Built Chomp app with React Native, Node.js, and AWS. Integrated geolocation, push notifications, and analytics.
           </p>
         </>
       ),
     },
     {
-      title: "Mar 2024 - May 2024: Research Assistant",
+      title: "Nov 2023 – Dec 2024: Software Engineer",
       content: (
         <>
-        <p>
-          <u>Indiana University Bloomington, Bloomington, IN, USA</u>
-          </p>
+          <p><u>Heartland Community Network, IN, USA</u></p>
           <p>
-          Optimized Generative AI and state-space models, reducing computational load by 20%, and enhanced Mamba LLMs efficiency through pruning, quantization, and distillation.
+            Built workforce platform with React, Node.js, MongoDB. Delivered onboarding, timesheet, and project tracking tools.
           </p>
         </>
       ),
     },
     {
-      title: "Aug 2023 - May 2024: Associate Instructor",
+      title: "Aug 2023 – May 2024: Research Assistant",
       content: (
         <>
+          <p><u>Indiana University Bloomington, IN, USA</u></p>
           <p>
-          <u>Indiana University Bloomington, Bloomington, IN, USA</u>
-          </p>
-          <p>
-          Taught 100+ students across courses in .NET, C#, Visual Studio, C, Unix, and foundational database concepts, emphasizing SQL and data structuring.
+            Improved AI model efficiency using PyTorch, Kubernetes, and AWS. Enhanced training speed and robustness.
           </p>
         </>
       ),
     },
     {
-      title: "Sep 2023 - Nov 2023: Data Science Tech Intern",
+      title: "Sep 2023 – Nov 2023: Tech Intern",
       content: (
         <>
+          <p><u>Centific Global Solutions, WA, USA</u></p>
           <p>
-          <u>Centific Global Solutions Inc., Redmond, WA, USA</u>
-          </p>
-          <p>
-          Developed an analytics-driven fraud detection Knowledge Base with NLP and ML enhancements, improving search accuracy and boosting user engagement by 30%.
+            Automated CI/CD with Jenkins, containerized ML models, and improved latency with Prometheus and Grafana.
           </p>
         </>
       ),
     },
     {
-      title: "Sep 2021 - July 2022: Data Scientist",
+      title: "Aug 2020 – Jul 2022: Full Stack Developer",
       content: (
         <>
+          <p><u>Ascent Consulting Services, India</u></p>
           <p>
-          <u>Loginware Softtec Private Limited, Bengaluru, KA, India</u>
-          </p>
-          <p>
-          Developed a TensorFlow CNN with 98% accuracy for face mask detection and optimized a neural network, improving efficiency by 30% for real-time analytics.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "Aug 2020 - Sep 2021: Web Developer",
-      content: (
-        <>
-          <p>
-          <u>Ascent Consulting Services Pvt. Ltd., Bengaluru, KA, India</u>
-          </p>
-          <p>
-          Enhanced UX by 20% using Agile and Scrum methodologies and improved system efficiency by 30% with Java-based backend optimizations, boosting user satisfaction by 15%.
+            Developed HRMS tools with MERN stack. Refactored APIs and migrated legacy systems to microservices.
           </p>
         </>
       ),
